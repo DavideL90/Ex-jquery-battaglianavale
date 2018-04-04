@@ -50,12 +50,12 @@ $(document).ready(function(){
     //se isFound non è stato trovato, quindi è false, allora incremento il contatore e coloro il quadrato
     if (!isFound) {
       if($(this).hasClass("bomb")){
-        $(this).css('background-color', 'red');
+        $(this).css('background', 'linear-gradient(#ea8f8f, #ff4949)');
         contRed++;
         $('#cont-red').html(contRed);
       }
       else{
-        $(this).css('background-color', 'green');
+        $(this).css('background', 'linear-gradient(#72bf99, #51d160)');
         contGreen++;
         $('#cont-green').html(contGreen);
       }
