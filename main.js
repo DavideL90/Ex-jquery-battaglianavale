@@ -60,6 +60,9 @@ $(document).ready(function(){
         $('#cont-green').html(contGreen);
       }
     }
+    if(contRed == 15){
+      $('h1').html('Hai trovato tutte le navi!');
+    }
   });
 });
 
